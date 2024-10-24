@@ -1,0 +1,62 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+ 
+  body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    background-color: #25232b;
+  }
+  .container {
+    margin-left: 50px;
+    margin-top: 110px;
+    padding: 60px;
+  }
+  h1 {
+   max-width: 400px;
+   font-size: 40px;
+   position: relative;
+   margin-bottom: 25px;
+   color: #f9f1f0;
+  }
+ #password {
+    width: 550px;
+    height: 60px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 25px;
+    font-size: 18px;
+    padding: 15px;
+    font-weight: 500;
+    color:#25232b;
+ }
+ #password:focus {
+    outline: none;
+ }
+  button{
+    display: block;
+    width: 200px;
+    height: 55px;
+    color:#f9f1f0;
+    background-color:#a0877d ;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .display {
+    position: relative;
+  }
+  .display i {
+    position: absolute;
+    color: #a0877d;
+    left: 517px;
+    top: 18px;
+    font-size: 22px;
+    cursor: pointer;
+  }
